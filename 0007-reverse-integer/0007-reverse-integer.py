@@ -8,9 +8,9 @@ class Solution(object):
         st2=""
 
         if st1[0]=='-':
-            lst=list(st1)
+            
             for i in range(1,len(st1)):
-                st2+=lst[len(st1)-i]
+                st2+=st1[len(st1)-i]
             n=-(int(st2))
         else:
             for i in range(1,len(st1)+1):
